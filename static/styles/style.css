@@ -10,6 +10,13 @@ body {
     font-family: 'Gilroy';
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: row;
+}
+
 button {
     font-family: 'Gilroy';
     background: transparent;
@@ -30,10 +37,6 @@ button {
 
 p {
     margin-bottom: 7px;
-}
-
-.mini-text p {
-    margin-bottom: 7px;
     font-size: 14px;
 }
 
@@ -42,7 +45,7 @@ p {
 .one-block {
     background-color: #1278F1;
 
-    /* волна */
+    /* фон волна */
     background-image: url('../images/wave.svg');
     background-position: bottom;
     background-size: 100%;
@@ -75,25 +78,25 @@ p {
 }
 
 .one-block-content {
-    
-    font-size: 55px;
     margin-left: 166px;
     margin-top: 86px;
     display: flex;
     flex-direction: row;
 }
 
-.big-text {
+h1 {
     font-family: 'Gilroy-bold';
+    font-size: 55px;
+
 }
 
-.mini-text {
-    font-size: 16px;
-    margin-top: 30px;
+.subtitle {
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 .img-browes {
-    margin-left: 180px;
+    margin-left: 270px;
 }
 
 .conect-button {
@@ -192,6 +195,21 @@ p {
     position: absolute;
     left: 370px;
     bottom: -30px;
+}
+
+.link-more-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.link-more-text {
+    margin-top: 15px;   
+}
+
+.link-more-element {
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 12px;
 }
 
 /* Шрифты */
