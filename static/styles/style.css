@@ -183,6 +183,15 @@ p {
 
 .img-browes-phone {
     margin-left: 50px;
+
+    position: relative;
+    display: inline-block;
+}
+
+.phone {
+    position: absolute;
+    left: 370px;
+    bottom: -30px;
 }
 
 /* Шрифты */
