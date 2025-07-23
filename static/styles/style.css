@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 32px;
+    background-color: #1278F1;
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+}
+
+button {
+    font-family: 'Gilroy';
+    background: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 23px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.title-text {
+    font-family: 'Gilroy-bold';
+    font-size: 28px;
+}
+
+p {
+    margin-bottom: 7px;
+}
+
+.mini-text p {
+    margin-bottom: 7px;
+    font-size: 14px;
+}
+
+/* Первый блок */
+
+.one-block {
+    background-color: #1278F1;
+
+    /* волна */
+    background-image: url('../images/wave.svg');
+    background-position: bottom;
+    background-size: 100%;
+    padding-bottom: 190px;
+    background-repeat: no-repeat;
+    
+}
+
+.nav-panel {
+    display: flex;
+    font-size: 14px;
+    margin-right: 166px;
+    justify-content: space-between;
+}
+
+
+.logo {
+    margin-left: 169px;
+}
+
+.nav-list>ul {
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+}
+
+.nav-list>ul>li>a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.one-block-content {
+    
+    font-size: 55px;
+    margin-left: 166px;
+    margin-top: 86px;
+    display: flex;
+    flex-direction: row;
+}
+
+.big-text {
+    font-family: 'Gilroy-bold';
+}
+
+.mini-text {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.img-browes {
+    margin-left: 180px;
+}
+
+.conect-button {
+    font-family: 'Gilroy-bold';
+    border-width: 2px;
+}
+
+/* Второй блок */
+
+.two-block {
+    background-color: #0A6ADB;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 43px;
+}
+
+.two-block-img1, .two-block-img2, .two-block-img3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 169px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 25px;
+    align-items:center;
+    width: 350px;
+}
+
+.title-textp {
+    font-family: 'Gilroy-bold';
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.img-time, .img-edit, .img-price {
+    width: 60px;
+    height: 55px;
+    margin-bottom: 5px;
+}
+
+/* Третий блок */
+
+.three-block {
+    display: flex;
+    flex-direction: row;
+    background-color: #0A6ADB;
+    padding-bottom: 40px;
+}
+
+.imgconsole {
+    margin-top: 80px;
+    margin-left: 164px;
+}
+
+.text-mini-block-three {
+    font-size: 14px;
+}
+
+.title-text-block-three {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: 'Gilroy-bold';
+}
+
+.insert-text-block {
+    margin-left: 66px;
+    margin-top: 73px;
+}
+
+.botton-popr {
+    margin-top: 30px;
+}
+
+/* Четвертый блок */
+
+.block-four {
+    display: flex;
+    flex-direction: row;
+
+    padding-top: 42px;
+    padding-bottom: 72px;
+    padding-left: 164px;
+
+    background-color: #0A6ADB;
+}
+
+.img-browes-phone {
+    margin-left: 50px;
+}
+
+/* Шрифты */
+@font-face {
+    font-family: "Gilroy";
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy-bold';
+    src: url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
